@@ -1,5 +1,5 @@
 const products=[
-{name:"COCHECITO CARESTINO",cat:"Cochecitos",price:"$98.000",img:"WhatsApp%20Image%202026-09-21%20at%2013.48.17.jpeg"}
+{name:"COCHECITO CARESTINO",cat:"Cochecitos",price:"$98.000",img:"./WhatsApp%20Image%202026-09-21%20at%2013.48.17.jpeg?v=2"}
 ];
 let active="Todos";const grid=document.querySelector("#grid"),search=document.querySelector("#search"),filters=document.querySelector("#filters"),count=document.querySelector("#count");
 const cats=["Todos",...new Set(products.map(p=>p.cat))];
